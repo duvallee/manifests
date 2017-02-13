@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="flightcontroller"
-          fetch="./" />
+          fetch="https://github.com/duvallee/" />
 
   <default revision="master"
-      remote="https://github.com/duvallee/"
+      remote="origin"
            sync-j="8" />
 
   <!-- pegasus_exynos4412 Application -->
