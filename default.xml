@@ -5,7 +5,7 @@
           fetch="../" />
 
   <default revision="master"
-           remote="origin"
+      remote="https://github.com/duvallee/"
            sync-j="8" />
 
   <!-- pegasus_exynos4412 Application -->
