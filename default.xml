@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="flightcontroller"
-          fetch="../" />
+          fetch="./" />
 
   <default revision="master"
       remote="https://github.com/duvallee/"
