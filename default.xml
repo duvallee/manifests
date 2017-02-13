@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="flightcontroller"
+          fetch="../" />
+
+  <default revision="master"
+           remote="origin"
+           sync-j="8" />
+
+  <!-- pegasus_exynos4412 Application -->
+  <project path="" name="flightcontroller.git" remote="origin" revision="master" />
+  <project path="flightcontroller/cleanfligt" name="cleanflight.git" remote="origin" revision="master" />
+  <project path="flightcontroller/betaflight" name="betaflight.git" remote="origin" revision="master" />
+  <project path="flightcontroller/sourceinsight" name="sourceinsight.git" remote="origin" revision="master" />
+  
+</manifest>
