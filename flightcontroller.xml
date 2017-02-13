@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="git://github.com/" />
+
+  <default 
+			revision="master"
+			remote="origin"
+			sync-c="true"
+			sync-j="4" />
+
+  <!-- pegasus_exynos4412 Application -->
+  <project path="flightcontroller" name="duvallee/flightcontroller.git" revision="master" />
+  <project path="flightcontroller/cleanfligt" name="duvallee/cleanflight.git" revision="master" />
+  <project path="flightcontroller/betaflight" name="duvallee/betaflight.git" revision="master" />
+  <project path="flightcontroller/sourceinsight" name="duvallee/sourceinsight.git" revision="master" />
+  
+</manifest>
