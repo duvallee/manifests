@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="git://github.com/" />
+
+  <default 
+			revision="master"
+			remote="origin"
+			sync-c="true"
+			sync-j="4" />
+
+  <!-- pegasus_exynos4412 Application -->
+  <project path="kernel" name="duvallee/kernel_build.git" revision="master" />
+  <project path="toolchain" name="duvallee/x86_toolchain.git" revision="master" />
+  <project path="sourceinsight" name="duvallee/kernel_sourceinsight.git" revision="master" />
+  <project path="kernel/linux-3.2.46" name="duvallee/kernel_3.2.46.git" revision="master" />
+  <project path="kernel/linux-4.4.48" name="duvallee/kernel_4.4.48.git" revision="master" />
+</manifest>
