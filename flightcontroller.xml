@@ -15,5 +15,6 @@
   <project path="flightcontroller/betaflight" name="duvallee/betaflight.git" revision="master" />
   <project path="flightcontroller/sourceinsight" name="duvallee/sourceinsight.git" revision="master" />
   <project path="flightcontroller/nRF51_SDK" name="duvallee/nRF51_SDK.git" revision="master" />
+  <project path="flightcontroller/nRF51_SDK_v11" name="duvallee/nRF51_SDK_v11.git" revision="master" />
 
 </manifest>
