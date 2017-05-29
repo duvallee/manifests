@@ -9,12 +9,14 @@
 			sync-c="true"
 			sync-j="4" />
 
-  <!-- pegasus_exynos4412 Application -->
+  <!-- Project for Drone of embedded labs -->
   <project path="flightcontroller" name="duvallee/flightcontroller.git" revision="master" />
   <project path="flightcontroller/cleanflight" name="duvallee/cleanflight.git" revision="master" />
   <project path="flightcontroller/betaflight" name="duvallee/betaflight.git" revision="master" />
   <project path="flightcontroller/sourceinsight" name="duvallee/sourceinsight.git" revision="master" />
-  <project path="flightcontroller/nRF51_SDK" name="duvallee/nRF51_SDK.git" revision="master" />
+# does not used repositories. instead of, use the repositories of nRF51_SDK_v11.
+#  <project path="flightcontroller/nRF51_SDK" name="duvallee/nRF51_SDK.git" revision="master" />
   <project path="flightcontroller/nRF51_SDK_v11" name="duvallee/nRF51_SDK_v11.git" revision="master" />
+  <project path="flightcontroller/Android-nRF-UART" name="duvallee/Android-nRF-UART.git" revision="master" />
 
 </manifest>
