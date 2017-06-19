@@ -3,7 +3,7 @@
   <remote name="origin"
           fetch="https://github.com/" />
   <remote name="local_origin"
-          fetch="git://localhost/" />
+          fetch="git://192.168.0.51/" />
 
   <default 
 			revision="master"
