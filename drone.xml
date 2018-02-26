@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+            fetch="https://github.com/duvallee/" />
+
+  <default 
+			revision="master"
+			remote="origin"
+			sync-c="true"
+			sync-j="4" />
+
+  <!-- Project for Drone -->
+
+  <!-- flight controller -->
+  <project path="drone/fc/cleanflight" name="drone_fc_cleanflight.git" revision="master" />
+  <project path="drone/fc/betaflight" name="drone_fc_betaflight.git" revision="master" />
+  <project path="drone/fc/st_fcu_f401" name="drone_fc_st_fcu_f401.git" revision="master" />
+
+  <!-- transmitter -->
+  <project path="drone/transmitter/bt_nrf51822" name="drone_transmitter_bt_nrf51822.git" revision="master" />
+  <project path="drone/transmitter/bt_st" name="drone_transmitter_bt_st.git" revision="master" />
+
+  <!-- app -->
+  <project path="drone/app/nordic" name="drone_app_android_bt_nrf51822.git" revision="master" />
+  <project path="drone/app/st" name="drone_app_android_bt_st.git" revision="master" />
+
+  <!-- build & toolchain -->
+  <project path="drone/" name="drone_toolchain_build.git" revision="master" />
+
+</manifest>
