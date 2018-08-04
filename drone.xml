@@ -15,6 +15,7 @@
   <project path="drone/fc/cleanflight" name="drone_fc_cleanflight.git" revision="master" />
   <project path="drone/fc/betaflight" name="drone_fc_betaflight.git" revision="master" />
   <project path="drone/fc/st_fcu_f401" name="drone_fc_st_fcu_f401.git" revision="master" />
+  <project path="drone/fc/fcu_f401" name="drone_fc_fcu_f401.git" revision="master" />
 
   <!-- transmitter -->
   <project path="drone/transmitter/bt_nrf51822" name="drone_transmitter_bt_nrf51822.git" revision="master" />
