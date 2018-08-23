@@ -23,6 +23,7 @@
   <!-- app -->
   <project path="drone/app/nordic" name="drone_app_android_bt_nrf51822.git" revision="master" />
   <project path="drone/app/st" name="drone_app_android_bt_st.git" revision="master" />
+  <project path="drone/app/my_drone" name="drone_app_mydrone_win.git" revision="master" />
 
   <!-- build & toolchain -->
   <project path="drone/" name="drone_toolchain_build.git" revision="master" />
