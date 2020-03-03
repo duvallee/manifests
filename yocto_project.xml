@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
-   <default revision="warrior" remote="origin" sync-j="16" sync-c="true" />
+   <default remote="origin" sync-j="16" sync-c="true" />
 
    <!-- platform dependency -->
+   <project path="yocto_project/" name="yocto_project_build" revision="raspberrypi_3b" />
+
+   <!-- platform dependency -->
+   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="raspberrypi_3b" />
+   <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" revision="raspberrypi_3b" />
 
    <!-- original -->
-   <project path="yocto_project/source/poky" name="yocto_project_poky" />
-   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" />
-   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" />
+   <project path="yocto_project/source/poky" name="yocto_project_poky" revision="warrior" />
+   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" revision="warrior" />
+   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" revision="warrior" />
 </manifest>
