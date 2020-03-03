@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
+   <default revision="warrior" remote="origin/warrior" sync-j="16" sync-c="true" />
+
+   <!-- platform dependency -->
+
+   <!-- original -->
+   <project path="yocto_project/source/poky" name="yocto_project_poky" />
+   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" />
+   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" />
+</manifest>
