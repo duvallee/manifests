@@ -5,9 +5,8 @@
 
    <!-- platform dependency -->
    <project path="yocto_project/" name="yocto_project_build" revision="raspberrypi_3b" />
+      <linkfile dest="yocto_project/downloads" src="yocto_project" />
 
-   <!-- project path="yocto_project/downloads" / -->
- 
    <!-- platform dependency -->
    <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="raspberrypi_3b" />
    <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" revision="raspberrypi_3b" />
