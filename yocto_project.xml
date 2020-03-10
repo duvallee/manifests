@@ -5,7 +5,6 @@
 
    <!-- platform dependency -->
    <project path="yocto_project/" name="yocto_project_build" revision="raspberrypi_4" />
-   <project path="yocto_project/downloads" />
 
    <!-- platform dependency -->
    <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="raspberrypi_4" />
