@@ -3,10 +3,10 @@
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
    <default remote="origin" sync-j="16" sync-c="true" />
 
-   <!-- platform dependency -->
+   <!-- for build -->
    <project path="yocto_project/" name="yocto_project_build" revision="raspberrypi_4" />
 
-   <!-- platform dependency -->
+   <!-- kernel & bootloader -->
    <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="raspberrypi_4" />
    <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" revision="raspberrypi_4" />
 
@@ -17,5 +17,6 @@
 
    <!-- platform dependency -->
    <project path="yocto_project/source/meta-raspberrypi" name="yocto_project_raspberrypi" revision="raspberrypi_4" />
+   <project path="yocto_project/source/meta-raspberrypi-custom" name="yocto_project_raspberrypi_custom" revision="raspberrypi_4" />
 
 </manifest>
