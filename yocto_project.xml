@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
-   <default revision="warrior" remote="origin" sync-j="16" sync-c="true" />
+   <default remote="origin" sync-j="16" sync-c="true" />
+
+   <!-- for build -->
+   <project path="yocto_project/" name="yocto_project_build" revision="stm32mp1" />
 
    <!-- platform dependency -->
+   <project path="yocto_project/layers/meta-st/meta-st-openstlinux" name="yocto_project_st_openstlinux" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-st/meta-st-stm32mp" name="yocto_project_st_stm32mp" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-st/meta-st-stm32mp-addons" name="yocto_project_st_stm32mp_addons" revision="stm32mp1" />
 
-   <!-- original -->
-   <project path="yocto_project/source/poky" name="yocto_project_poky" />
-   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" />
-   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" />
+   <!-- common -->
+   <project path="yocto_project/layers/meta-openembedded" name="yocto_project_openembedded" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-qt5" name="yocto_project_qt5" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-timesys" name="yocto_project_timesys" revision="stm32mp1" />
+   <project path="yocto_project/layers/openembedded-core" name="yocto_project_openembedded_core" revision="stm32mp1" />
 </manifest>
