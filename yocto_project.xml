@@ -4,8 +4,8 @@
    <default remote="origin" sync-j="16" sync-c="true" />
 
    <!-- for download -->
-   <linkfile dest="download" />
-   <linkfile dest="toolchain" />
+   <copyfile dest="download" />
+   <copyfile dest="toolchain" />
 
    <!-- for build -->
    <project path="yocto_project/" name="yocto_project_build" revision="stm32mp1" />
