@@ -3,6 +3,9 @@
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
    <default remote="origin" sync-j="16" sync-c="true" />
 
+   <!-- for download -->
+   <project path="download/" />
+
    <!-- for build -->
    <project path="yocto_project/" name="yocto_project_build" revision="stm32mp1" />
 
