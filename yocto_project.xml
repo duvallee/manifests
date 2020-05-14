@@ -17,6 +17,6 @@
 
    <!-- platform dependency -->
    <project path="yocto_project/source/meta-raspberrypi" name="yocto_project_raspberrypi" revision="raspberrypi_4" />
-   <project path="yocto_project/source/meta-raspberrypi-custom" name="yocto_project_raspberrypi_custom" revision="raspberrypi_4" />
+   <project path="yocto_project/source/meta-raspberrypi-custom" name="yocto_project_custom_layer" revision="raspberrypi_4" />
 
 </manifest>
