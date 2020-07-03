@@ -26,11 +26,7 @@
    <!-- common -->
    <project path="yocto_project/layers/meta-openembedded" name="yocto_project_openembedded" />
    <project path="yocto_project/layers/meta-qt5" name="yocto_project_qt5" />
-
-   <!--
    <project path="yocto_project/layers/meta-timesys" name="yocto_project_timesys" />
-   -->
-
    <project path="yocto_project/layers/openembedded-core" name="yocto_project_openembedded_core" />
 
    <!-- custom layers -->
