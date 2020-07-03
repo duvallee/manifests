@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
-   <default remote="origin" sync-j="16" sync-c="true" />
+   <default remote="origin" sync-j="-24" revision="stm32mp1_dunfell" sync-c="true" />
 
    <!-- for build -->
-   <project path="yocto_project/" name="yocto_project_build" revision="stm32mp1" />
+   <project path="yocto_project/" name="yocto_project_build" />
 
    <!-- for mcu -->
-   <project path="yocto_project/mcu_stm32mp_m4" name="yocto_project_mcu" revision="stm32mp1" />
+   <project path="yocto_project/mcu_stm32mp_m4" name="yocto_project_mcu" />
 
    <!-- for bsp -->
-   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="stm32mp1" />
-   <project path="yocto_project/bsp/linux" name="yocto_project_kernel" revision="stm32mp1" />
+   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" />
+   <project path="yocto_project/bsp/linux" name="yocto_project_kernel" />
 
    <!-- for app -->
-   <project path="yocto_project/app" name="yocto_project_app" revision="stm32mp1" />
+   <!--
+   <project path="yocto_project/app" name="yocto_project_app" />
+   -->
 
    <!-- platform dependency -->
-   <project path="yocto_project/layers/meta-st/meta-st-openstlinux" name="yocto_project_st_openstlinux" revision="stm32mp1" />
-   <project path="yocto_project/layers/meta-st/meta-st-stm32mp" name="yocto_project_st_stm32mp" revision="stm32mp1" />
-   <project path="yocto_project/layers/meta-st/meta-st-stm32mp-addons" name="yocto_project_st_stm32mp_addons" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-st/meta-st-openstlinux" name="yocto_project_st_openstlinux" />
+   <project path="yocto_project/layers/meta-st/meta-st-stm32mp" name="yocto_project_st_stm32mp" />
+   <project path="yocto_project/layers/meta-st/meta-st-stm32mp-addons" name="yocto_project_st_stm32mp_addons" />
 
    <!-- common -->
-   <project path="yocto_project/layers/meta-openembedded" name="yocto_project_openembedded" revision="stm32mp1" />
-   <project path="yocto_project/layers/meta-qt5" name="yocto_project_qt5" revision="stm32mp1" />
-   <project path="yocto_project/layers/meta-timesys" name="yocto_project_timesys" revision="stm32mp1" />
-   <project path="yocto_project/layers/openembedded-core" name="yocto_project_openembedded_core" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-openembedded" name="yocto_project_openembedded" />
+   <project path="yocto_project/layers/meta-qt5" name="yocto_project_qt5" />
+
+   <!--
+   <project path="yocto_project/layers/meta-timesys" name="yocto_project_timesys" />
+   -->
+
+   <project path="yocto_project/layers/openembedded-core" name="yocto_project_openembedded_core" />
 
    <!-- custom layers -->
-   <project path="yocto_project/layers/meta-custom" name="yocto_project_custom_layer" revision="stm32mp1" />
+   <project path="yocto_project/layers/meta-custom" name="yocto_project_custom_layer" />
 </manifest>
