@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
-   <default remote="origin" sync-j="-24" revision="stm32mp1_dunfell" sync-c="true" />
+   <default remote="origin" sync-j="24" revision="stm32mp1_dunfell" sync-c="true" />
 
    <!-- for build -->
    <project path="yocto_project/" name="yocto_project_build" />
