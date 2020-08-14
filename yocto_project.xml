@@ -4,21 +4,21 @@
    <remote name="duvallee" fetch="ssh://git@github.com/duvallee/" />
 
    <!-- for build -->
-   <project path="yocto_project/" name="yocto_project_build" remote="duvallee" revision="jetson_nano_zeus" />
+   <project path="yocto_project/" name="yocto_project_build" remote="duvallee" revision="jetson_nano_dunfell" />
 
    <!-- kernel & bootloader -->
-   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" remote="duvallee" revision="jetson_nano_zeus" />
-   <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" remote="duvallee" revision="jetson_nano_zeus" />
+   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" remote="duvallee" revision="jetson_nano_dunfell" />
+   <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" remote="duvallee" revision="jetson_nano_dunfell" />
 
    <!-- common -->
-   <project path="yocto_project/source/poky" name="yocto_project_poky" remote="duvallee" revision="zeus" />
-   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" remote="duvallee" revision="zeus" />
-   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" remote="duvallee" revision="zeus" />
+   <project path="yocto_project/source/poky" name="yocto_project_poky" remote="duvallee" revision="dunfell" />
+   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" remote="duvallee" revision="dunfell" />
+   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" remote="duvallee" revision="dunfell" />
 
    <!-- platform dependency -->
-   <project path="yocto_project/source/meta-mender" name="yocto_project_mender" remote="duvallee" revision="zeus" />
-   <project path="yocto_project/source/meta-mender-community" name="yocto_project_mender-community" remote="duvallee" revision="zeus" />
-   <project path="yocto_project/source/meta-tegra" name="yocto_project_tegra" remote="duvallee" revision="jetson_nano_zeus" />
-   <project path="yocto_project/source/meta-jetson_nano" name="yocto_project_custom_layer" remote="duvallee" revision="jetson_nano_zeus" />
+   <project path="yocto_project/source/meta-mender" name="yocto_project_mender" remote="duvallee" revision="dunfell" />
+   <project path="yocto_project/source/meta-mender-community" name="yocto_project_mender-community" remote="duvallee" revision="dunfell" />
+   <project path="yocto_project/source/meta-tegra" name="yocto_project_tegra" remote="duvallee" revision="jetson_nano_dunfell" />
+   <project path="yocto_project/source/meta-jetson_nano" name="yocto_project_custom_layer" remote="duvallee" revision="jetson_nano_dunfell" />
 
 </manifest>
