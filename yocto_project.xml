@@ -4,7 +4,7 @@
    <remote name="origin" fetch="ssh://git@github.com/duvallee/" />
 
    <!-- for build -->
-   <project path="yocto_project/" name="yocto_project_build" remote=""origin revision="jetson_nano_zeus" />
+   <project path="yocto_project/" name="yocto_project_build" remote="origin" revision="jetson_nano_zeus" />
 
    <!-- kernel & bootloader -->
    <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" remote="origin" revision="jetson_nano_zeus" />
