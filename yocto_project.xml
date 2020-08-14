@@ -4,21 +4,21 @@
    <default sync-j="16" sync-c="true" />
 
    <!-- for build -->
-   <project path="yocto_project/" name="yocto_project_build" remote="jetson_nano_zeus" />
+   <project path="yocto_project/" name="yocto_project_build" revision="jetson_nano_zeus" />
 
    <!-- kernel & bootloader -->
-   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" remote="jetson_nano_zeus" />
-   <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" remote="jetson_nano_zeus" />
+   <project path="yocto_project/bsp/u-boot" name="yocto_project_uboot" revision="jetson_nano_zeus" />
+   <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" revision="jetson_nano_zeus" />
 
    <!-- common -->
-   <project path="yocto_project/source/poky" name="yocto_project_poky" remote="zeus" />
-   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" remote="zeus" />
-   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" remote="zeus" />
+   <project path="yocto_project/source/poky" name="yocto_project_poky" revision="zeus" />
+   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" revision="zeus" />
+   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" revision="zeus" />
 
    <!-- platform dependency -->
-   <project path="yocto_project/source/meta-mender" name="yocto_project_mender" remote="zeus" />
-   <project path="yocto_project/source/meta-mender-community" name="yocto_project_mender-community" remote="zeus" />
-   <project path="yocto_project/source/meta-tegra" name="yocto_project_tegra" remote="jetson_nano_zeus" />
-   <project path="yocto_project/source/meta-jetson_nano" name="yocto_project_custom_layer" remote="jetson_nano_zeus" />
+   <project path="yocto_project/source/meta-mender" name="yocto_project_mender" revision="zeus" />
+   <project path="yocto_project/source/meta-mender-community" name="yocto_project_mender-community" revision="zeus" />
+   <project path="yocto_project/source/meta-tegra" name="yocto_project_tegra" revision="jetson_nano_zeus" />
+   <project path="yocto_project/source/meta-jetson_nano" name="yocto_project_custom_layer" revision="jetson_nano_zeus" />
 
 </manifest>
