@@ -11,9 +11,9 @@
    <project path="yocto_project/bsp/kernel" name="yocto_project_kernel" revision="raspberrypi_4" />
 
    <!-- common -->
-   <project path="yocto_project/source/poky" name="yocto_project_poky" revision="warrior" />
-   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" revision="warrior" />
-   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" revision="warrior" />
+   <project path="yocto_project/source/poky" name="yocto_project_poky" revision="dunfell" />
+   <project path="yocto_project/source/meta-openembedded" name="yocto_project_openembedded" revision="dunfell" />
+   <project path="yocto_project/source/meta-qt5" name="yocto_project_qt5" revision="dunfell" />
 
    <!-- platform dependency -->
    <project path="yocto_project/source/meta-raspberrypi" name="yocto_project_raspberrypi" revision="raspberrypi_4" />
