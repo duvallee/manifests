@@ -15,6 +15,7 @@
    <project path="dunfell/source/meta-openembedded" name="yocto_project_openembedded" revision="dunfell" />
    <project path="dunfell/source/meta-qt5" name="yocto_project_qt5" revision="dunfell" />
    <project path="dunfell/source/meta-raspberrypi" name="yocto_project_raspberrypi" revision="dunfell" />
+   <project path="dunfell/source/meta-ros" name="yocto_project_ros" revision="dunfell" />
 
    <!-- platform dependency -->
    <project path="dunfell/source/meta-raspberrypi-custom" name="yocto_project_custom_layer" revision="raspberrypi_4" />
