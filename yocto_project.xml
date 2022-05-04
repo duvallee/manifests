@@ -4,7 +4,9 @@
    <default remote="origin" sync-j="16" sync-c="true" />
 
    <!-- for build -->
-   <project path="dunfell/" name="yocto_project_build" revision="raspberrypi_4" />
+   <project path="dunfell/" name="yocto_project_build" revision="spotmicro-raspberry-pi">
+      <linkfile dest="main.cpp" src="main.cpp"/>
+   </project>
 
    <!-- kernel & bootloader -->
    <project path="dunfell/bsp/u-boot" name="yocto_project_uboot" revision="raspberrypi_4" />
@@ -21,11 +23,10 @@
    <project path="dunfell/source/meta-raspberrypi-custom" name="yocto_project_custom_layer" revision="raspberrypi_4" />
 
    <!-- etc  -->
-   <project path="3d-cad-files" name="3d_cad_solidworks" revision="spotmicro" />
-   <project path="old-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spot_micro" />
-   <project path="micro-ros-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro_micro_ros" />
-   <project path="app" name="raspberrypi-app" revision="raspberrypi-camera-opencv-qt">
-      <linkfile dest="main.cpp" src="main.cpp"/>
-   </project>
+   <project path="3d-cad-files" name="3d_cad_solidworks" revision="spotmicro-raspberry-pi" />
+   <project path="old-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro-raspberry-pi" />
+   <project path="micro-ros-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro-raspberry-pi-micro-ros" />
+   <project path="app/spotmicro" name="raspberrypi-app" revision="spotmicro-raspberry-pi"/>
+   <project path="app/test" name="raspberrypi-app" revision="spotmicro-raspberry-pi-test"/>
 
 </manifest>
