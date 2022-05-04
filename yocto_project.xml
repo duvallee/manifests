@@ -5,7 +5,7 @@
 
    <!-- for build -->
    <project path="dunfell/" name="yocto_project_build" revision="spotmicro-raspberry-pi">
-      <linkfile dest="main.cpp" src="main.cpp"/>
+      <linkfile dest="repo-start.sh" src="repo-start.sh"/>
    </project>
 
    <!-- kernel & bootloader -->
