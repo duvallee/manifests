@@ -20,4 +20,9 @@
    <!-- platform dependency -->
    <project path="dunfell/source/meta-raspberrypi-custom" name="yocto_project_custom_layer" revision="raspberrypi_4" />
 
+   <!-- etc  -->
+   <project path="3d-cad-files" name="3d_cad_solidworks" revision="spotmicro" />
+   <project path="old-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spot_micro" />
+   <project path="micro-ros-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro_micro_ros" />
+
 </manifest>
