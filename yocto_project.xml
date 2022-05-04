@@ -26,4 +26,6 @@
    <project path="micro-ros-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro_micro_ros" />
    <project path="app" name="raspberrypi-app" revision="raspberrypi-camera-opencv-qt" />
 
+   <project path="./" name="raspberrypi-app.git/main.cpp" revision="raspberrypi-camera-opencv-qt" />
+
 </manifest>
