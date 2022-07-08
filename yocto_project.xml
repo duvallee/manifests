@@ -24,9 +24,10 @@
 
    <!-- etc  -->
    <project path="3d-cad-files" name="3d_cad_solidworks" revision="spotmicro-raspberry-pi" />
-   <project path="old-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro-raspberry-pi" />
+   <!-- project path="old-mcu" name="imx6q-yocto-sumo-stm-mcu" revision="spotmicro-raspberry-pi" -->
    <project path="micro-ros-mcu" name="yocto_project_mcu" revision="micro-ros-stm32f401ccu6" />
    <project path="app/spotmicro" name="raspberrypi-app" revision="spotmicro-raspberry-pi"/>
    <project path="app/test" name="raspberrypi-app" revision="spotmicro-raspberry-pi-test"/>
+   <project path="simulation" name="ros2-gazebo-simulation" revision="spotmicro-raspberry-pi-ros2-foxy"/>
 
 </manifest>
